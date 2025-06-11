@@ -1,25 +1,46 @@
-🔍 What I Built and What It Represents
+# 🍎 Maven Market Sales & Returns Dashboard
 
-🔹 Sales & Transaction Insights
+This Power BI dashboard provides a comprehensive overview of sales performance, product profitability, and return rates for the fictional "Maven Market." It is designed to help stakeholders make data-driven decisions by analyzing trends across time, geography, and product lines.
 
-Visuals that explore purchasing behavior by tracking quantity sold, number of transactions, and high-performing sales periods (notably in Q4 months like November and December).
+![Dashboard Preview](Project_Images/Screenshot.png)
 
-🔹 Returns Monitoring
+## 📊 Dashboard Features
 
-A detailed look at return volumes and rates to help identify patterns of dissatisfaction — whether due to product quality, supply chain, or customer expectations.
+* **Key Metrics:**
 
-🔹 Regional Sales Performance
+  * Total Quantity Sold
+  * Number of Returns
+  * Total Transactions
+  * Monthly Revenue, Profit, and Return Goals
 
-Interactive country filters (USA, Canada, Mexico) provide a geographic view of market performance, revealing regional strengths like Canada's strong profitability.
+* **Product Insights:**
 
-🔹 Product & Brand Analytics
+  * Gross revenue by product and brand
+  * Return rates and profitability per brand
+  * Top-performing and underperforming products
 
-Comparison charts showing gross revenue and profit by brand — identifying top performers like Hermanos and Tell Tale, and calling attention to brands like King Products for further review.
+* **Time-Series Analysis:**
 
-🔹 Customer Profile Summary
+  * Gross revenue breakdown by year, quarter, and month
 
-A data slice showing average income and family status of customers, demonstrating how demographic data can inform marketing, targeting, and product design.
+* **Geographic Filtering:**
 
-🔹 KPI & Target Tracking
+  * Interactive country filters (USA, Canada, Mexico)
 
-Real-time tracking of current month profit, revenue, and return goals — helping simulate how businesses stay aligned with financial objectives.
+* **Customer Data Snapshot:**
+
+  * Average income, children status, and product preference insights
+
+## 📈 Business Recommendations
+
+Based on the analysis:
+
+* Increase stock of high-demand products like **Hermanos**, **Tri-State**, and **Tell Tale** during November and December.
+* Prioritize inventory and marketing for **Canada**, which shows strong performance.
+* Further evaluate **King** brand products for growth or optimization opportunities.
+
+## 🛠️ Tools & Technologies Used
+
+* **Power BI Desktop** – for data modeling, DAX measures, and visual design
+* **Microsoft Excel** – for preprocessing and data exploration
+* **Data Analysis Expressions (DAX)** – for custom KPIs and calculated columns
